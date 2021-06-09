@@ -1,0 +1,25 @@
+pipeline{
+  agent  any
+
+  stages {
+    stage ('preparing the  Artifact') {
+      steps{
+       sh '''
+         zip -r ../frontend.zip *
+       '''
+      }
+    }
+    stage('upload artifact'){
+      steps{
+        sh '''
+          curl -f -v -u admin:admin123 --upload-file ../frontend.zip http://172.31.2.243:8081/repository/frontend/frontend.zip
+
+        '''
+
+
+      }
+
+    }
+
+  }
+}
