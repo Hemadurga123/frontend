@@ -5,7 +5,7 @@ pipeline {
     stage ('preparing the Artifact') {
       steps{
        sh '''
-         zip -r  ../frontend.zip *
+         zip -r  frontend.zip *
        '''
       }
     }
