@@ -4,5 +4,6 @@
 roboshop(
       COMPONENT : 'frontend',
       PROJECT_NAME : 'roboshop',
-      SKIP_NEXUS_IP : false
+      SKIP_NEXUS_UPLOAD  :  false
+
 )
