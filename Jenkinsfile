@@ -4,6 +4,7 @@
 roboshop(
       COMPONENT : 'frontend',
       PROJECT_NAME : 'roboshop',
+      SLAVE_LABEL : 'NODEJS',
       SKIP_NEXUS_UPLOAD  :  false
 
 )
