@@ -4,6 +4,6 @@ roboshop (
     COMPONENT          :  'frontend',
     PROJECT_NAME       :  "roboshop",
     SLAVE_LABEL        :  "NODEJS",
-    SKIP_NEXUS_UPLOAD  :  false,
-    APP_TYPE           :  "NGINX"
+    APP_TYPE           :  "NGINX",
+    SKIP_NEXUS_UPLOAD  :  false
 )
