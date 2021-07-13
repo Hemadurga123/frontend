@@ -1,11 +1,9 @@
-@Library('roboshop') _
+@Library('todoapp') _
 
-
-roboshop(
-      COMPONENT : 'frontend',
-      PROJECT_NAME : 'roboshop',
-      SLAVE_LABEL : 'NODEJS',
-      APP_TPYE :    'NGINX',
-      SKIP_NEXUS_UPLOAD  :  false
-
+roboshop (
+    COMPONENT          :  'frontend',
+    PROJECT_NAME       :  "roboshop",
+    SLAVE_LABEL        :  "NODEJS",
+    SKIP_NEXUS_UPLOAD  :  false,
+    APP_TYPE           :  "NGINX"
 )
