@@ -1,7 +1,5 @@
 pipeline {
-  agent {
-     lable "NODEJS"
-  }
+  agent any
 
   stages {
     stage ('preparing the Artifact') {
